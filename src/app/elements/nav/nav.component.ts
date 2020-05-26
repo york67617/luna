@@ -212,41 +212,24 @@ export class ElementNavComponent implements OnInit {
           name: 'Full Screen'
         },
       ]
-    }, {
-      id: 'Help',
-      name: 'Help',
-      children: [
-        {
-          id: 'Website',
-          click: 'Website',
-          name: 'Website'
-        },
-        {
-          id: 'Document',
-          click: 'Document',
-          name: 'Document'
-        },
-        {
-          id: 'Support',
-          click: 'Support',
-          name: 'Support'
-        }]
-    }, {
-      id: 'Language',
-      name: 'Language',
-      children: [
-        {
-          id: 'English',
-          click: 'English',
-          name: 'English'
-        },
-        {
-          id: 'Chinese',
-          click: 'Chinese',
-          name: '中文'
-        }
-      ]
-    }, {
+    },  
+    // {
+    //   id: 'Language',
+    //   name: 'Language',
+    //   children: [
+    //     {
+    //       id: 'English',
+    //       click: 'English',
+    //       name: 'English'
+    //     },
+    //     {
+    //       id: 'Chinese',
+    //       click: 'Chinese',
+    //       name: '中文'
+    //     }
+    //   ]
+    // },
+     {
       id: 'Setting',
       name: 'Setting',
       click: 'Setting',

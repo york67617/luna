@@ -111,6 +111,7 @@ export class ElementAssetTreeComponent implements OnInit, OnDestroy {
 
     this._http.getFavoriteAssets().subscribe(resp => {
       this.favoriteAssets = resp.map(i => i.asset);
+      
     });
 
     this.loading = true;
@@ -273,7 +274,7 @@ export class ElementAssetTreeComponent implements OnInit, OnDestroy {
       'id': 'favorite',
       'name': 'Favorite',
       'fa': 'fa-star-o',
-      'hide': this.isAssetFavorite(),
+      'hide': true,
       'click': this.favoriteAsset.bind(this)
     }, {
       'id': 'disfavor',
